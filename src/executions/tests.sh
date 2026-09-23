@@ -1,0 +1,1 @@
+dapr run --app-id APICotacoesDolar --components-path ..\components dotnet run

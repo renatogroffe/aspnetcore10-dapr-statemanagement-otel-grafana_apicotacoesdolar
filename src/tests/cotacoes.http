@@ -1,0 +1,5 @@
+GET http://localhost:5227/updatecotacaodolar
+
+###
+
+GET http://localhost:5227/cotacaodolar
