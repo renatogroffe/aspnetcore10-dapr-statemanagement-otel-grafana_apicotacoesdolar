@@ -34,7 +34,7 @@ builder.Services.AddOpenTelemetry()
             .SetResourceBuilder(resourceBuilder)
             .AddAspNetCoreInstrumentation()
             .AddHttpClientInstrumentation()
-            .AddEntityFrameworkCoreInstrumentation()
+            .AddGrpcClientInstrumentation()
             .UseGrafana(settings =>
             {
                 if (!string.IsNullOrWhiteSpace(grafanaCloudAuthorization))
